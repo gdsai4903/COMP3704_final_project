@@ -1,0 +1,10 @@
+train: '/Users/gagandeepsingh/Documents/_RRC/2024_FALL/COMP 3704/Project/Data/drowning_resplit/train/images'
+val: '/Users/gagandeepsingh/Documents/_RRC/2024_FALL/COMP 3704/Project/Data/drowning_resplit/valid/images'
+
+# Number of classes
+nc: 2  # Number of classes (e.g., Human Present, Human Not Present)
+
+# Class names
+names:
+  0: Human Present
+  1: Human Not Present
