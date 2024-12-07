@@ -44,3 +44,5 @@ pip install -r requirements.txt
 ```bash  
 git clone https://github.com/gdsai4903/COMP3704_final_project.git  
 cd COMP3704_final_project
+
+This project is a part of COMP-3704 Neural Networks and Deep Learning, Fall 2024 at Red River College Polytechnic.
