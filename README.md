@@ -23,7 +23,7 @@ YOLOv11 architecture includes:
 
 ## Results  
 The YOLOv11 model achieved the highest mAP and precision among tested architectures, outperforming ResNet50, VGG16, and simpler models.  
-
+![img](./runs/detect/train53/results.png)
 ---
 
 ## Getting Started  
