@@ -14,35 +14,6 @@ Functions:
    - Splits the combined image and label data into new train, validation, and test sets based on the
      specified ratios. Ensures each image has a corresponding label and organizes the data into
      output directories.
-
-Parameters:
------------
-data_dir : str
-    Path to the main data directory containing subdirectories for 'train', 'valid', and 'test' data.
-image_dir : str
-    Path to the directory where all combined images will be stored.
-label_dir : str
-    Path to the directory where all combined labels will be stored.
-output_dir : str
-    Path to the directory where the newly split train, validation, and test data will be saved.
-train_ratio : float
-    Proportion of the data to allocate to the training set (default is 0.6).
-val_ratio : float
-    Proportion of the data to allocate to the validation set (default is 0.2).
-test_ratio : float
-    Proportion of the data to allocate to the test set (default is 0.2).
-
-Usage:
-------
-1. Ensure the directory structure has 'train', 'valid', and 'test' subdirectories, each containing
-   'images' and 'labels' folders with corresponding files.
-2. Run `combine_data` to consolidate all images and labels into unified folders.
-3. Run `split_data` to split the data into new train, validation, and test sets based on desired ratios.
-
-Note:
------
-- The script ensures every image has a corresponding label during the splitting process.
-- Warnings are printed for images without matching label files during the combining step.
 """
 
 import os
