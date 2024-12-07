@@ -22,8 +22,11 @@ YOLOv11 architecture includes:
 - **Optimization**: Uses AdamW optimizer and a multi-task loss function combining CIoU, Binary Cross-Entropy, and Focal Loss.  
 
 ## Results  
+
 The YOLOv11 model achieved the highest mAP and precision among tested architectures, outperforming ResNet50, VGG16, and simpler models.  
+
 ![img](./resources/results.png)
+
 ---
 
 ## Getting Started  
