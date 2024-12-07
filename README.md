@@ -12,7 +12,8 @@ The project implements state-of-the-art techniques and innovative data preproces
 - **Real-Time Detection**: Efficiently detects humans in challenging underwater environments.  
 
 ## Dataset  
-The model is trained on the Roboflow Human Dataset, optimized for underwater conditions through preprocessing and augmentation.  
+The model is trained on a custom dataset tailored for underwater object detection.  
+Download the dataset from this [OneDrive link](https://rrcca-my.sharepoint.com/:f:/g/personal/gagandeepsingh8_rrc_ca/EpbLjJ5QsNBGgUtKOrq_ZrQBqFAolODAoneCCbyZBz64-Q?e=yGhjBq).  
 
 ## Model Details  
 YOLOv11 architecture includes:  
